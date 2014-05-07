@@ -1,0 +1,45 @@
+<html>
+<head>
+<script language="javascript">
+function add()
+{
+ var A1=parseFloat(text1.value);
+ var A2=parseFloat(text2.value);
+ var sum=A1+A2;
+ out.value=sum;
+}
+function sub()
+{
+var A1=parseFloat(text1.value);
+ var A2=parseFloat(text2.value);
+ var s1=A1-A2;
+ out.value=s1;
+}
+function mul()
+{
+var A1=parseFloat(text1.value);
+ var A2=parseFloat(text2.value);
+ var m1=A1*A2;
+ out.value=m1;
+}
+function div()
+{
+var A1=parseFloat(text1.value);
+ var A2=parseFloat(text2.value);
+ var d1=A1/A2;
+ out.value=d1;
+}
+</script>
+</head>
+<body align="center">
+<p><b>CALCULATOR PROGRAM</b></p>
+<p>Enter the first value<input type="text" id="text1" value=""></input></p>
+<p>Enter the Second value<input type="text" id="text2"  value=""></input></p>
+<p>Displaying the output<input type="text" id="out" value="" ></input></p>
+<p><button type="button" onclick="add()" name="ADDITION">ADDITION</button></p>
+<p><button type="button" onclick="sub()" name="SUBTRACTION">SUBTRACTION</button></p>
+<p><button type="button" onclick="mul()" name="MULTIPLICATION">MULTIPLICATION</button></p>
+<p><button type="button" onclick="div()" name="MULTIPLICATION">DIVISION</button></p>
+</body>
+
+</html>
